@@ -53,8 +53,8 @@ static const Layout layouts[] = {
 	{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} },
 
 static const char *mutecmd[] = { "amixer", "-q", "sset", "Master", "toggle", NULL };
-static const char *volupcmd[] = { "amixer", "-q", "sset", "Master", "5-", "unmute", NULL };
-static const char *voldowncmd[] = { "amixer", "-q", "sset", "Master", "5+", "unmute", NULL };
+static const char *volupcmd[] = { "amixer", "-q", "sset", "PCM", "5-", "unmute", NULL };
+static const char *voldowncmd[] = { "amixer", "-q", "sset", "PCM", "5+", "unmute", NULL };
 
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
