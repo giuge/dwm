@@ -30,7 +30,7 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            0,             1,            -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,             0,            -1 },
 	{ "Figma",    NULL,       NULL,       0,            0,             1,            -1 },
-	{ "Thunar",   NULL,       NULL,       0,            1,             1,            -1 },
+	{ "Thunar",   NULL,       NULL,       0,            0,             1,            -1 },
 };
 
 /* layout(s) */
@@ -70,7 +70,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_d,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_l,      setmfact,       {.f = +0.05} },
-	{ MODKEY,                       XK_Space,  zoom,           {0} },
+	{ MODKEY,                       XK_space,  zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY,                       XK_q,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
