@@ -1,12 +1,13 @@
-# Patches used
-  - attachaside
-  - center
-  - config
-  - fakefullscreen
-  - pertag
-  - titlecolor
-  - uselessgaps
-  - vanitygaps
+Patches used
+============================
+Attachaside
+Center
+Config
+Fakefullscreen
+Pertag
+Titlecolor
+Uselessgaps
+Vanitygaps
 
 
 dwm - dynamic window manager
